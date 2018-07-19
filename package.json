@@ -1,5 +1,5 @@
 {
-  "name": "@asadurrehman/angular2-virtual-scroll",
+  "name": "@asadurrehman94/angular2-virtual-scroll",
   "version": "0.3.2-custom.1",
   "description": "Angular 2 module for virtual -infinite- list. Supports multi-column",
   "main": "dist/virtual-scroll.js",
