@@ -4,7 +4,7 @@ export interface ChangeEvent {
     end?: number;
 }
 export declare class VirtualScrollComponent implements OnInit, OnChanges, OnDestroy {
-    private readonly element;
+    element: ElementRef;
     private readonly renderer;
     private readonly zone;
     items: any[];

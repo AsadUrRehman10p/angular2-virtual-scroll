@@ -135,7 +135,7 @@ export class VirtualScrollComponent implements OnInit, OnChanges, OnDestroy {
   private lastTopPadding = -1;
 
   constructor(
-    private readonly element: ElementRef,
+    public element: ElementRef,
     private readonly renderer: Renderer2,
     private readonly zone: NgZone) { }
 
